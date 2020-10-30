@@ -84,13 +84,13 @@ input {
 
 .card-column {
   display: grid;
-  grid-template-rows: 20px repeat(5, 100px);
+  grid-template-rows: 20px repeat(5, 100px) 0.5px;
   align-content: space-between;
   grid-auto-rows: 100px;
 
 	background-color: #ffffff;
 	grid-gap: 10px;
-	min-height: 700px;
+	min-height: 500px;
 }
 
 .card-column h2 {
@@ -151,7 +151,6 @@ input {
 }
 
 .ellipsis-icon {
-	display: inline-block;
 	float: right;
   margin-right: 15px;
 }
